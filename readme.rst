@@ -17,13 +17,51 @@ Proyek ini adalah sistem **monitoring IoT** berbasis web menggunakan **CodeIgnit
 
 ---
 
-👥 Hak Akses Berdasarkan Role
+👑 Admin
+🟢 Hak Akses:
+Akses penuh ke seluruh modul: User, Device, dan Sensor Log.
+Bisa menambah, mengedit, dan menghapus data (CRUD).
+Mengelola akun pengguna lain (admin, operator, viewer).
 
-| Role     | Tampilan Menu                                  | Hak Akses                                          |
-|----------|-------------------------------------------------|----------------------------------------------------|
-| **Admin**    | Semua menu                                      | Full CRUD di semua modul                           |
-| **Operator** | Dashboard, Lihat Device, Sensor Log (CRUD sendiri) | Bisa tambah/edit/hapus hanya **log miliknya** |
-| **Viewer**   | Dashboard, Lihat Device, Lihat Sensor Log        | Hanya bisa lihat, **tanpa tombol aksi**            |
+📋 Menu yang Ditampilkan:
+Dashboard
+Manajemen User 👥
+Manajemen Device 📟
+Monitoring Sensor Log 📊
+Logout
+
+🧠 Catatan:
+Admin bertanggung jawab atas struktur dan pengelolaan data serta manajemen sistem secara keseluruhan.
+
+🛠 Operator
+🟡 Hak Akses:
+Melihat daftar Device.
+Melihat dan mengelola Sensor Log milik sendiri saja (CRUD terbatas).
+Tidak bisa mengubah data pengguna atau device.
+
+📋 Menu yang Ditampilkan:
+Dashboard
+Lihat Device
+Sensor Log (CRUD milik sendiri)
+Logout
+
+🧠 Catatan:
+Operator adalah orang lapangan atau teknisi yang menginput dan memonitor data sensor dari perangkat yang sedang digunakan.
+
+👁‍🗨 Viewer
+🔴 Hak Akses:
+Hanya bisa melihat data Device dan Sensor Log.
+Tidak bisa menambahkan, mengedit, atau menghapus apapun (read-only).
+Tidak ada akses ke manajemen user.
+
+📋 Menu yang Ditampilkan:
+Dashboard
+Lihat Device
+Lihat Sensor Log
+Logout
+
+🧠 Catatan:
+Viewer ditujukan untuk manajer, supervisor, atau pihak yang hanya perlu memantau sistem tanpa boleh mengubah data.
 
 ---
 
