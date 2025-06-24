@@ -70,7 +70,7 @@ Viewer ditujukan untuk manajer, supervisor, atau pihak yang hanya perlu memantau
 1. Clone Repository
 
 ```bash
-git clone https://github.com/ahmad-indragiri/iot-monitoring.git
+git clone https://github.com/Ahmad-Indragiri/iot-monitoring.git
 cd iot-monitoring
 ```
 
