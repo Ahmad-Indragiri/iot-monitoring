@@ -133,7 +133,7 @@ Buka file `application/config/config.php` dan `application/config/database.php`,
 
 ```php
 // config.php
-$config['base_url'] = 'http://localhost/iot-monitoring/';
+$config['base_url'] = 'h tt p : // localhost / iot-monitoring /';
 
 // database.php
 $db['default'] = array(
